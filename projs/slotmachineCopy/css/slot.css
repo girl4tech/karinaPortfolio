@@ -1,0 +1,23 @@
+.reel{
+  border:1px solid black;
+  float:left;
+  height:200px;
+  width:33%;
+}
+img {
+  height:auto;
+  width:48%;
+  margin:0% 25%;
+}
+.min, .max, .playBtn{
+  padding:12px 26px;
+  margin:3% 5%;
+  color:white;
+  background-color:#4e0f89;
+}
+input[placeholder="total ($25 limit)"] {
+    padding:10px;
+    border:5px solid #7913d3;
+    background-color:#4e0f89;
+    color:white;
+}

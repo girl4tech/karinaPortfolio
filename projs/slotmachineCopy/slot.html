@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/slot.css">
+  </head>
+  <body>
+    <h1 class="starting total">You have $50 to start, modify your bet by adjusting the min and max!</h1>
+    <div class="slotMachineContainer">
+      <div id="ReelContainer">
+        <div id="reel1" class="reel">
+          <img class="firstSlot" src="imgs/money.jpg" alt="money">
+        </div>
+        <div id="reel2" class="reel">
+          <img class="secondSlot" src="imgs/banana.png" alt="bananas">
+        </div>
+        <div id="reel3" class="reel">
+          <img class="thirdSlot" src="imgs/cherries.png" alt="cherries">
+        </div>
+      </div>
+      <div id="reelOverlay"></div>
+    </div>
+    <button id="minBtn" class="min" type="button" name="button">Min - $1</button>
+    <button id="maxBtn" class="max" type="button" name="button">Max - $5</button>
+    <span></span>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
