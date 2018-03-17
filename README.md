@@ -1,3 +1,3 @@
-Testing this Karina's awesome portfolio
-this is a change
+# Portfolio Website
+Simple static site, building out an initial 
 
